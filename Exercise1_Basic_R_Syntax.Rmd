@@ -1,0 +1,33 @@
+---
+title: "Puppy Budget Project"
+author: "Zainab Lutfi"
+output: html_document
+---
+
+# Basic R Syntax Exercise
+
+This exercise uses variables, arithmetic, and logical comparisons in R.
+
+```{r}
+puppies <- 3
+puppy_price <- 300
+budget <- 1000
+
+total_cost <- puppies * puppy_price
+too_expensive <- total_cost > budget
+max_puppies <- budget %/% puppy_price
+
+print(total_cost)
+print(too_expensive)
+print(max_puppies)
+```
+
+## Results
+
+- Total cost: $900
+- Too expensive: FALSE
+- Maximum puppies within budget: 3
+
+## AI Assistance Disclosure
+
+AI helped explain R syntax and organize the R Markdown document. The student should test and review the code.
