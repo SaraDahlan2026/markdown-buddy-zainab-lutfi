@@ -1,41 +1,34 @@
+# Puppy Budget Project
 
-# R Basics: Puppy Budget Exercise
+**Student:** Zainab Lutfi
 
 ## Overview
-This project demonstrates basic R programming using variables, calculations, and logical comparisons. It uses a simple puppy budget example to practice R syntax.
+This project uses basic R programming to calculate the cost of buying puppies and compare it with a budget.
+
+## Requirements
+- R or RStudio
+- Basic knowledge of R Markdown
 
 ## Installation
-- Install R.
-- Use RStudio or another R environment.
-- No additional R packages are required.
+Download the R Markdown file and open it in RStudio.
 
-## Dataset
-This exercise does not use an external dataset. It uses sample values defined in the R script.
+## Usage
+Run the R code to calculate the total cost and check the budget.
 
-## Example Usage
-1. Open `exercise.R` in RStudio.
-2. Run the script.
-3. View the calculated values in the R console.
-
-## Example Code
-```r
-puppies <- 8
-puppy_price <- 250
-total_cost <- puppies * puppy_price
-too_expensive <- total_cost > 1000
-max_puppies <- 1000 %/% puppy_price
-```
+## Example
+- Number of puppies: 3
+- Price per puppy: $300
+- Budget: $1,000
 
 ## Results
-- Total puppy cost: $2,000.
-- The total exceeds $1,000: TRUE.
-- Maximum puppies within a $1,000 budget: 4.
+- Total cost: $900
+- Too expensive: FALSE
+- Maximum puppies within budget: 3
 
-## License
-This project is for educational use. The exercise is adapted from course practice material.
+## Project Files
+- README.md: Project documentation
+- Exercise1_Basic_R_Syntax.Rmd: R programming exercise
+- Reflection.md: Reflection on AI assistance
 
 ## AI Assistance Disclosure
-- AI tool used: ChatGPT.
-- Main prompts: Generate a professional README for a basic R exercise; add installation, example code, and license sections; review Markdown formatting and clarity.
-- Changes made: Reviewed the content, organized the sections, and checked the calculations against the R script.
-  
+AI was used to help explain Markdown formatting, organize documentation, and review R syntax. The student should review and verify the work before submitting.
